@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Agence LMF</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <script>
+        var header = document.getElementById("bar");
+        var btns = header.getElementsByClassName("a-lien");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+    <body>
+    <div class="container"></div>
+            <div id="bar" class="navbar">
+                <a class="a-lien active" href="#home">Accueil</a>
+                <a class="a-lien" href="#about">Qui sommes-nous ?</a>
+                <a class="a-lien" href="#services">Services</a>
+                <a class="a-lien" href="#work">Portfolio</a>
+                <a class="a-lien" href="#blog">Blog</a>
+                <a class="a-lien" href="#contact">Contact</a>
+            </div>
+            <div class="header">
+                <div class="h-titre">
+                    <h2 class="h-titre1">Hello</h2>
+                    <h1 class="h-description">Entreprise de Conseil à Votre </br> Écoute</h1>
+                    <div class="header-button">
+                        <a class="button" href="#">En savoir Plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END HOME -->
+        <!-- START ABOUT -->
+        <div class="avantpropos">
+            <div class="column">
+                <img src="img/avantpropos.jpg" alt="">
+            </div>
+            <div class="column">
+                <h3>About Me</h3>
+                <h4 class="mt-4">Hello! <span class="titre-description">Nous sommes LMF</span></h4>
+                <p class="description">
+                    Crée en 2020, LMF est une entreprise de conseil créer par Monsieur Leroy, <br/>Monsieur Mangin et Monsieur Froger.
+                </p>
+                <p class="description">
+                    Nous avons tous les 3 étudié à l'EFREI, école d'ingénieur situé à Villejuif.
+                </p>
+                <p class="description">
+                    Nous avons voulu crée notre entreprise de manière à répondre aux <br/>nouvelles exigeances des entreprises en ce qui concerne la recherche de <br/>marché pour les entreprises.
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="reseau-liste">
+                    <ul class="ul-reseau">
+                        <li class="li-reseau">
+                            <a href="#"><i class="mdi mdi-facebook text-muted"></i></a>
+                        </li>
+                        <li class="li-reseau">
+                            <a href="#"><i class="mdi mdi-linkedin text-muted"></i></a>
+                        </li>
+                    </ul>
+                    <p class="p-footer">
+                        2020 &copy; LMF code with ❤️ by JB
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
