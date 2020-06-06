@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Agence LMF | Contact</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+      <meta name="author" content="" />
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="stylesheet" href="css/contact.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+   </head>
+   <body>
+      <div id="bar" class="navbar">
+         <a class="a-lien" href="index.html">Accueil</a>
+         <a class="a-lien" href="#about">Qui sommes-nous ?</a>
+         <a class="a-lien" href="#services">Services</a>
+         <a class="a-lien" href="#work">Portfolio</a>
+         <a class="a-lien" href="blog.html">Blog</a>
+         <a class="a-lien active" href="contact.html"><strong>Contact</strong></a>
+      </div>
+      <div class="container">
+         <div class="h-titre">
+            <h2 class="h-titre">Contactez-Nous...</h2>
+            <p class="p-description">N'hesitez pas à nous contacter, nos experts se feront un plaisir de<br/> vous répondre dans les 24h suivantes</p>
+         </div>
+      </div>
+      <div class="items-contact">
+         <div class="item">
+            <i class="material-icons" id="phoneicon">phone_android</i>
+            <h5 class="fonction">Téléphone</h5>
+            <p class="description">+33 6 95 76 30 54</p>
+         </div>
+         <div class="item">
+            <i class="material-icons" id="emailicon">mail_outline</i>
+            <h5 class="fonction">E-mail</h5>
+            <p class="description">contact@mail.com</p>
+         </div>
+         <div class="item">
+            <i class="material-icons" id="locationicon">location_on</i>
+            <h5 class="fonction">Bureau</h5>
+            <p class="description">30 - 32 avenue de la république, Efrei, Villejuif</p>
+         </div>
+      </div>
+
+      <form>
+         <div class="row">
+            <div>
+               <input name="name" id="nom" type="text" class="input-text" placeholder="Votre Prénom*" required="" size="80">
+            </div>
+            <div>
+               <input name="email" id="email" type="email" class="input-text" placeholder="Votre E-mail*" required="" size="80">
+            </div>
+         </div>
+
+         <div class="row">
+            <input type="text" class="input-text" id="objet" placeholder="Objet*" required=""/>
+         </div>
+         <div class="row">
+            <textarea name="comments" id="message" rows="4" class="input-text" placeholder="Message*"></textarea>
+         </div>
+         <div class="action">
+            <div class="bouton">
+               <input type="submit" class="button-envoie" value="Envoyer le message">
+            </div>
+         </div>
+      </form>
+
+      <footer>
+         <div class="footer">
+            <div class="reseau-liste">
+               <ul class="ul-reseau">
+                  <li class="li-reseau">
+                     <a href="#"><i class="mdi mdi-facebook text-muted"></i></a>
+                  </li>
+                  <li class="li-reseau">
+                     <a href="#"><i class="mdi mdi-linkedin text-muted"></i></a>
+                  </li>
+               </ul>
+               <p class="p-footer">
+                  2020 &copy; LMF code with ❤️ by JB
+               </p>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
