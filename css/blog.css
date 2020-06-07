@@ -60,7 +60,7 @@ body{
 .article{
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 80%;
     padding-top: 300px;
     padding-bottom: 50px;
 }
@@ -114,4 +114,9 @@ body{
 
 .font-weight-bold{
     color: #000;
+}
+
+.img-article{
+    text-align: center;
+    padding: 20px 0;
 }
