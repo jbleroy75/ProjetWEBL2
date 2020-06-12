@@ -1,0 +1,137 @@
+/* GENERAL CSS */
+body{
+    background-color: #f6f6f6;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* LOGO */
+.logoTOP{
+    position: absolute;
+    overflow: auto;
+    transform: translate(-50%, -50%);
+    top: 8%;
+    left: 8%;
+    resize: both;
+    max-width: 20%;
+    max-height: 20%;
+
+
+}
+
+/* Navbar */
+#navbar{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    margin-right: 20%;
+    position: absolute;
+    overflow: auto;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 65%;
+    resize: both;
+}
+
+.a-lien{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    margin-right: 25px;
+}
+.a-lien:hover{
+    color: crimson;
+}
+
+.active{
+    color: crimson;
+}
+
+/* ----- */
+.container{
+    padding: 2px 10px;
+    width:40%;
+    background-color: #FFFFFF;
+    margin: 10% 300px;
+}
+
+.container2{
+    padding: 2px 10px;
+    width: 20%;
+    background-color: #FFFFFF;
+    margin: 0 15px;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 15%;
+    right: 10%;
+}
+
+.icons{
+    color: crimson;
+}
+
+.ul-article{
+    list-style: none;
+    padding: 0;
+}
+
+.subtitle{
+    list-style: none;
+    display: flex;
+}
+
+.item{
+    margin: 5px;
+}
+
+.image{
+    width: 75%;
+    height: 75%;
+}
+
+.recents{
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.article{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text{
+    text-align: justify;
+    text-justify: inter-word;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+.trait{
+    background-color: crimson;
+    height: 2px;
+    width: 100%;
+}
+
+.trait2{
+    background-color: darkgrey;
+    height: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner{
+    text-align: center;
+    padding: 10px;
+}
+
+.title{
+    padding-left: 40px;
+}
