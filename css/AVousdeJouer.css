@@ -1,0 +1,304 @@
+/* Jean-Baptiste Leroy Alexis Mangin et Thomas Froger */
+/* CSS_TP3*/
+body
+{
+    font-family: Roboto, Verdana,Arial;
+    background-color: #eeeeee;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.tableau
+{
+    background-color: white;
+    display: block;
+
+    /*TP2 question 4/5) 
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;*/
+    border-radius: 2px;
+    -webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    max-width: 1000px;
+}
+
+img
+{
+    display: block;
+    margin: 50px auto;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(4px 4px 4px #322);
+    filter: drop-shadow(4px 4px 4px #322);
+}
+
+.button
+{
+    
+    
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 10px;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    background-color: #343333;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    padding: 0 16px;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(4px 4px 4px #585858);
+    filter: drop-shadow(4px 4px 4px #585858);
+}
+
+.button:hover
+{
+    background-color: #6e6e6e;
+}
+
+.button-actions-bis
+{
+    margin: 10px 10px 5px 10px;
+    text-align: center;
+}
+
+.input-class
+{
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+input,select
+{
+
+    width: 100%;
+}
+
+input
+{
+
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid gainsboro;
+    outline: 0;
+}
+
+input:invalid
+{
+    border-color: red;
+    caret-color: red;
+}
+
+.row-input
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table
+{
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd)
+{
+
+    background-color: #D3D3D3;
+}
+
+td,th
+{
+
+    text-align: center;
+   
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 25%;
+}
+
+th
+{
+
+    background-color: #D3D3D3;
+}
+
+tr
+{
+    border: none;
+    text-align: center;
+
+}
+
+td,th
+{
+    border-spacing: 10px;
+}
+
+caption
+{
+    padding-bottom: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.section2
+{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+tr:last-child > td
+{
+    border-bottom: none;
+}
+
+button:disabled
+{
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.footer
+{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.compteur-page
+{
+    margin-top: 15px;
+}
+
+.compteur-page a
+{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.compteur-page a.active
+{
+    background-color: #343333;
+    color: white;
+    border: 1px solid #343333;
+}
+
+.compteur-page a:hover:not(.active)
+{
+    background-color: #ddd;
+}
+
+.compteur-page a:first-child
+{
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.compteur-page a:last-child
+{
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#button-bas-pages, #button-next-prev
+{
+    display: inline-block;
+}
+
+.button-actions
+{
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: auto;
+    color: #fff;
+    background-color: #343333;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 36px;
+    padding: 0 16px;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(2px 2px 2px #585858);
+    filter: drop-shadow(2px 2px 2px #585858);
+    display: inline-block;
+    height: 36px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tableau
+{
+    margin-top: 30px;
+}
+
+#liste-utilisateurs, #ajout-utilisateurs
+{
+    display: none;
+}
+
+.row-actions
+{
+    text-align: center;
+    background: none;
+}
+
+/* Navbar */
+#navbar{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    margin-right: 20%;
+    position: absolute;
+    overflow: auto;
+    color: black;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 65%;
+    resize: both;
+}
+
+.a-lien{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    margin-right: 25px;
+}
+.a-lien:hover{
+    color: crimson;
+}
+
+.active{
+    color: crimson;
+}
+
+.mdi mdi-facebook{
+    color: #FFFFFF;
+}
