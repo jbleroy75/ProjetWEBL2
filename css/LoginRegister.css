@@ -1,0 +1,112 @@
+/* GENERAL CSS */
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+}
+
+h1{
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+
+button{
+    width: 90%;
+    background-color: #364092;
+    color: #FFFFFF;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Navbar */
+.navbar{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    margin-right: 20%;
+    position: absolute;
+    overflow: auto;
+    color: white;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 65%;
+    resize: both;
+}
+
+.a-lien{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    margin-right: 25px;
+}
+.a-lien:hover{
+    color: crimson;
+}
+
+.active{
+    color: crimson;
+}
+
+/* Login / Register*/
+
+.connexion{
+    padding-top: 50px;
+}
+
+.enregistrer{
+    padding-top: 50px;
+}
+
+.logo{
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+.form{
+    width: 25%;
+    margin: 25px auto;
+}
+
+.input-text{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.pwd{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.style{
+    text-decoration: none;
+    color: #364092;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.register{
+    text-align: center;
+}
+
+.login{
+    text-align: center;
+}
