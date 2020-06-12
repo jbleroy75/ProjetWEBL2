@@ -11,7 +11,7 @@ Vous êtes à présent sur la page d'accueil du site internet
 
 Consigne : 
 Le but de notre projet est de développer un site web en pur HTML, CSS et Javascript, sans frameworks ni bibliothèques 
-tierces. Le contenu lui-même du site n'importe pas. Il est au choix des créateurs.
+tierces. Sauf pour googlefonts ainsi que fontanwsome pour les iconess des réseaux sociaux.  Le contenu lui-même du site n'importe pas. Il est au choix des créateurs.
 
 Projet : 
 Nous avons donc créer un site de conseil, de manière à répondre aux nouvelles exigeances des entreprises en ce qui 
@@ -19,9 +19,7 @@ concerne la recherche de marché pour les entreprises.
 Sur notre site vous pourrez trouver des informations, nos services, photos et articles et enfin les moyens pour nous contacter
 
 Présentation : 
-Nous avons donc travailler que sur le front. Il n'y a pas de back-end. Chaque page a été codée de son côté vu que nous 
-travailons sans framework. Il y a donc des pages dans le header a votre disposition comme services, contact etc. 
+Nous avons donc travailler que sur le front. Il n'y a pas de back-end.
 
 Chaque page est facile d'utilisation vous pourrez aisément naviguer dans notre site internet. Sur la dernière page, contact, 
-si vous souhaitez rentrer en relation avec nous c'est par ce biais que nous ferions passer les utilisateur en sachant que dans 
-notre cas nous devions juste faire le front.
+si vous souhaitez rentrer en relation avec nous c'est par ce biais que nous ferions passer les utilisateur en sachant qu'aucune base de données n'est connecté avec le site.
