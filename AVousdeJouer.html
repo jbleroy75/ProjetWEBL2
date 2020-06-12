@@ -28,31 +28,12 @@
         <div id="taches" class="tableau row-actions">
             <div class="row-actions">
                 <button name="button" class="button-actions" type="button" formnovalidate onclick="return showUsers();">Utilisateur(s)</button>
-                <button name="button" class="button-actions" type="button" formnovalidate onclick="return showTasks();">Tâche(s)</button>
+
             </div>
         </div>
     </nav>
 
-    <div  id="liste-taches" class="tableau">
-        <table id="tache-tab">
-            <caption>Tâche(s)</caption>
-            <tr>
-                <th>Entreprise</th>
-                <th>Contact</th>
-                <th>Titre de votre projet</th>
-            <th>Action</th>
-            </tr>
-        </table>
-        <div class="footer">
-            <div class="compteur-page">
-                <div id="button-bas-pages"></div>
-                <div id="button-next-prev">
-                    <a id="button-precedent" href="javascript:f_precedent()">&laquo;</a>
-                    <a id="button-suivant" href="javascript:f_suivant()">&raquo;</a>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <header class="tableau" id="ajout-utilisateurs">
         <form id="section1" action="javascript:void(0);" onsubmit="return ajout_utilisateurs();">
@@ -95,7 +76,17 @@
         </div>
     </main>
     <footer>
+
+            
+        </div>
 			<div class="footer">
+                <div class="compteur-page">
+                <div id="button-bas-pages"></div>
+                <div id="button-next-prev">
+                    <a id="button-precedent" href="javascript:f_precedent()">&laquo;</a>
+                    <a id="button-suivant" href="javascript:f_suivant()">&raquo;</a>
+                </div>
+            </div>
 				<ul class="ul-reseau">
 					<li class="li-reseau"><i class="fa fa-facebook-official icons" aria-hidden="true"></i></li>
 					<li class="li-reseau"><i class="fa fa-instagram icons" aria-hidden="true"></i></li>
