@@ -1,7 +1,8 @@
 /* Jean-Baptiste Leroy Alexis Mangin et Thomas Froger */
-/*TP3 16/05/20 */
 
-window.onload = ApiTaches();
+window.onload = function() {
+    showUsers();
+}
 
 function ajout_utilisateurs() {
 
