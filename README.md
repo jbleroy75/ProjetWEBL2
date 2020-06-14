@@ -21,5 +21,7 @@ Sur notre site vous pourrez trouver des informations, nos services, photos et ar
 Présentation : 
 Nous avons donc travailler que sur le front. Il n'y a pas de back-end.
 
+Au niveau du projet nous avons tous travaillé via Discord, pour les mises à jours mineurs, nous avons utilisé un seul et même compte github.
+
 Chaque page est facile d'utilisation vous pourrez aisément naviguer dans notre site internet. Sur la dernière page, contact, 
 si vous souhaitez rentrer en relation avec nous c'est par ce biais que nous ferions passer les utilisateur en sachant qu'aucune base de données n'est connecté avec le site.
